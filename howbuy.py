@@ -47,7 +47,7 @@ print(search_result.text)
 
 search_num = search_result.find_element(By.CSS_SELECTOR,"span.cRed")
 result_num = int(search_num.text)
-print(f"数量{result_num}")
+# print(f"数量{result_num}")
 # print(f"{search_num.text}")
 
 result_list = wd.find_element(By.CSS_SELECTOR,"div.filter_result_list>div.result_list_table tbody")
