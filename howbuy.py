@@ -25,8 +25,9 @@ input_box.clear()
 wd.find_element(By.CSS_SELECTOR,"div.bottom>div.pages>span.ts>a:nth-child(3)").click()
 
 #输入模块
-#etf_keyword = input("请输入你要查找的基金关键词：")
-input_box.send_keys("卫星")
+etf_keyword = input("请输入你要查找的基金关键词：")
+input_box.send_keys(etf_keyword)
+# input_box.send_keys("卫星")
 
 #搜索按钮
 search_button = wd.find_element(By.CSS_SELECTOR,"a[id='keywords_btn']")
