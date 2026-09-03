@@ -83,6 +83,11 @@ for num in range(1, result_num + 1):
 print("爬取结束")
 
 
+
+
+
+
+
 # 数据库存储模块
 def etf_data_list_save(fund_data_list, db_path="etf_data.db"):
     if not fund_data_list:
